@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+h1{
+  color:#1B4965 ;
+}
+article img{
+  float: right;
+}
+p{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: #CAE9FF;
+}
+h2 {
+    text-decoration: none;
+    color:#1B4965;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    height: 10px;
+}
+header li {
+    display: inline-block;
+    }
+  header ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 85px;
+    font-size: larger;
+  }
+  header ul li a:hover{
+    background-color: #5FA8D3;
+  }
+  
+  header{
+    background-color: #1B4965;
+     }
+ .hero img {
+        display: block;
+        width: 20%;
+        height:auto;
+     }
+     section img{
+
+      padding: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.19);
+      float: left;
+      margin: 10px 20px;
+      width: 350px;
+      height:auto;
+     }
+     section img:hover{
+      border: #1B4965;
+      transform: rotate(-3deg);
+     }
+     footer img{
+      display: inline;
+      width: 3%;
+      float: right;
+     }
+     footer{
+      float: left;
+      background-color: #5FA8D3;
+      width: 100%;
+     }
+     
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+
+
+
