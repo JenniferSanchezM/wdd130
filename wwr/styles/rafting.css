@@ -28,7 +28,8 @@ h2 {
     color:#1B4965;
 }
 .logo {
-    display: flex;
+    display:right;
+    
 }
 .logo img {
     height: 10px;
@@ -49,13 +50,16 @@ header li {
   
   header{
     background-color: #1B4965;
+    height: 225px;
      }
  .hero img {
         display: block;
         width: 20%;
         height:auto;
+      
         
      }
+  
      section img{
 
       padding: 10px;
@@ -64,6 +68,9 @@ header li {
       margin: 10px 20px;
       width: 350px;
       height:auto;
+     }
+     section{
+      display: flex;
      }
      section img:hover{
       border: #1B4965;
@@ -75,7 +82,7 @@ header li {
       float: right;
      }
      footer{
-      float: left;
+      float: right;
       background-color: #5FA8D3;
       width: 100%;
      }
