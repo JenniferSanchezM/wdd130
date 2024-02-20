@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{width: 150px;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color:#333;
+    background: #fff;
+  }
+  header{
+    margin: 0;
+    width: 650px;
+  }
+  h1{
+    margin: 1em;
+    font-size: 1.5em;
+    color:#1B4965;
+    text-align:center;
+
+  }
+  form{
+    width:650px;
+    margin:0 auto;
+    padding:1em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color:#eee;
+    display: grid;
+
+  }
+  fieldset {
+    display:grid;
+    grid-gap:.5rem;
+    margin:1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+  legend{
+    padding: 0.5rem;
+    color:#1B4965 ;
+    font-size: 1.3em;
+  }
+label, input, button, select,   textarea{
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    text-align: right;
+    padding-right: 1rem;
+
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: #5FA8D3;
+    color:#1B4965;
+    border: none;
+    border-radius: .5rem;
+    padding:.75rem;
+    font-size:1.2rem;
+}
+button:hover{
+    background-color:#36ae90;
+}
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color:#777;
+    border-top: 1pex solid #ccc;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+
+}
+.colum1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.colum2{
+    grid-template-columns: 1fr 2fr;
+}
