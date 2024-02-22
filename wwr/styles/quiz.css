@@ -15,6 +15,8 @@ body {
   header{
     margin: 0;
     width: 650px;
+    display: center;
+    color:#1B4965 ;
   }
   h1{
     margin: 1em;
@@ -30,26 +32,22 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color:#eee;
-    display: grid;
+    display: center;
 
   }
   fieldset {
-    display:grid;
+    display:center;
     grid-gap:.5rem;
     margin:1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
   }
-  legend{
-    padding: 0.5rem;
-    color:#1B4965 ;
-    font-size: 1.3em;
-  }
+  
 label, input, button, select,   textarea{
     font-family: 'Times New Roman', Times, serif;
 }
 label{
-    text-align: right;
+    text-align: center;
     padding-right: 1rem;
 
 }
@@ -57,11 +55,7 @@ input, select, textarea{
     padding: 0.5rem;
     font-size: 1.1rem;
 }
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
-}
+
 button {
     margin: 1rem;
     background-color: #5FA8D3;
@@ -74,16 +68,18 @@ button {
 button:hover{
     background-color:#36ae90;
 }
-footer{
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color:#777;
-    border-top: 1pex solid #ccc;
-}
+
 .form-item{
-    display: grid;
+    display:grid;
     align-items: center;
 
+}
+
+p{
+    background-color: #777;
+    display:center;
+    padding: 05px;
+}
+input{
+    padding: 10px;
 }
