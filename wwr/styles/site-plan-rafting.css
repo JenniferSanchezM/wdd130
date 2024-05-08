@@ -6,7 +6,7 @@ header {
   
 }
 h1{
-  color:#1B4965 ;
+  color:#ffffff ;
 }
 article img{
   float: right;
@@ -19,11 +19,14 @@ article img{
   color: #1B4965;
 }
 p{
-  padding: 10px;
+  padding: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 body{
   background-color: #CAE9FF;
+    max-width: 960px;
+    padding: 20px;
+    font-family: var('Times New Roman');
 }
 h2 {
     text-decoration: none;
@@ -53,6 +56,9 @@ header li {
   header{
     background-color: #1B4965;
     height: 225px;
+    padding: 20px;
+    color: white;
+    
      }
  .hero img {
         display: block;
@@ -88,3 +94,6 @@ header li {
       background-color: #5FA8D3;
       width: 100%;
      }
+    nav { 
+      
+    }
