@@ -26,14 +26,20 @@ body{
   background-color: #CAE9FF;
     max-width: 960px;
     padding: 20px;
-    font-family: var('Times New Roman');
+   font-family: 'Times New Roman', Times, serif;
+    
 }
 h2 {
     text-decoration: none;
     color:#1B4965;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var('Times New Roman', Times, serif);
+  color: var(red blue yellow)
+}
 .logo {
-    display:right;
+  display: inline-block; /* Or any other suitable display value */
+ 
     
 }
 .logo img {
@@ -63,11 +69,26 @@ header li {
  .hero img {
         display: block;
         width: 20%;
-        height:auto;
-      
-        
+        height:auto;  
      }
-  
+  nav{ background-color: var(#1B4965);
+    font-size:1.2rem;
+    display: flex;
+    
+  }
+  nav a {
+    display: block;
+    color: var(#1B4965);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  nav a:link, nav a:visited¨{
+    color: var(#ADD8E6);
+  }
+  nav a:hover{
+    color: var(#1B4965);
+    background-color:var(#5FA8D3);
+  }
      section img{
 
       padding: 10px;
