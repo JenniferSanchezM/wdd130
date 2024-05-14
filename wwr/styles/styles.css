@@ -64,7 +64,7 @@ header li {
   }
 
   aside h2{
-    position: center;
+    position: absolute;
     top: 47px;
     left: 150px;
   }
@@ -85,7 +85,7 @@ header li {
     padding: 10px;
     box-sizing: border-box;
    }
-   /* class selector */
+   /* class selector this is going to give styles to the box*/
    .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0,.1);
