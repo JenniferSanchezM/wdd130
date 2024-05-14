@@ -54,12 +54,19 @@ header li {
       background-color: #ADD8E6;
       padding: 1rem;
       color: #1B4965;
+      text-align: center;
       
   } 
   
   aside img {
       width: 200px;
       height: auto;
+  }
+
+  aside h2{
+    position: center;
+    top: 47px;
+    left: 150px;
   }
   
   main img {
@@ -85,6 +92,7 @@ header li {
     padding: 1rem;
     background-color: #ddd;
     color:#000
+    
   }
   header ul {
     list-style: none;
