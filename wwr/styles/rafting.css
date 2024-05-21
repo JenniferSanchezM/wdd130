@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 header {
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ h2 {
     color:#1B4965;
 }
 .logo {
-    display:right;
+    display:inline;
     
 }
 .logo img {
@@ -71,14 +71,6 @@ header li {
     background-color: #1B4965;
     height: 225px;
      }
- .hero img {
-        display: block;
-        width: 50;
-        height:auto;
-      
-        
-     }
-  
      section img{
 
       padding: 10px;
