@@ -64,7 +64,7 @@ header li {
   }
 
   aside h2{
-    position: absolute;
+    position: central;
     top: 47px;
     left: 150px;
   }
@@ -120,3 +120,20 @@ header li {
       width: 250px;
       height: auto;
     }
+     nav a {
+      display: block;
+      padding: 0.5rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight:700;
+      color: #fff; 
+     }
+
+     header, footer, .grid {
+      margin: 0 auto;
+      max-width: 840px;
+  }
+  .grid {
+    display: grid;
+    align-items: center;
+}
