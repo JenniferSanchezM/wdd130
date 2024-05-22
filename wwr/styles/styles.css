@@ -24,6 +24,8 @@ header li {
      }
   h1 {
     color: steelblue;
+    border-bottom: 1px solid #1B4965; /* 1px solid black border */
+    
   }
   h3{
     color: steelblue;
@@ -76,9 +78,10 @@ header li {
   }
   p {padding: 10px;}
   
-   header,footer {
+   header,footer, .grid {
      max-width: 840px;
      margin: 0 auto;
+
    }
    * {
     margin: 0;
@@ -128,11 +131,6 @@ header li {
       font-weight:700;
       color: #fff; 
      }
-
-     header, footer, .grid {
-      margin: 0 auto;
-      max-width: 840px;
-  }
   .grid {
     display: grid;
     align-items: center;
