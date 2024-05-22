@@ -131,7 +131,7 @@ header li {
       font-weight:700;
       color: #fff; 
      }
-  .grid {
+    .grid {
     display: grid;
     align-items: center;
 }
