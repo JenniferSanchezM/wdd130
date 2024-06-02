@@ -137,5 +137,5 @@ button:hover {
 section {
   background-color: azure;
   padding: 10px;
-  border: 0 cap;
+  border: 2px dashed black;
 }
