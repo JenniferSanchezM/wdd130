@@ -97,3 +97,11 @@ header li {
       background-color: #5FA8D3;
       width: 100%;
      }
+map {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  max-width: 800px;
+  max-height: 600px;
+}
