@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 header {
   display: flex;
   justify-content: space-between;
@@ -26,16 +24,16 @@ body{
   background-color: #CAE9FF;
     max-width: 960px;
     padding: 20px;
-   font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 h2 {
     text-decoration: none;
-    color:#1B4965;
+    color:white;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var('Times New Roman', Times, serif);
-  color: var(red blue yellow)
+h2, h3, h4, h5, h6 {
+  font-family:'Times New Roman', Times, serif;
+  color: #1B4965
 }
 .logo {
   display: inline-block; /* Or any other suitable display value */
@@ -71,23 +69,24 @@ header li {
         width: 20%;
         height:auto;  
      }
-  nav{ background-color: var(#1B4965);
+  nav {
+     background-color: #1B4965;
     font-size:1.2rem;
     display: flex;
     
   }
   nav a {
     display: block;
-    color: var(#1B4965);
+    color: #1B4965;
     text-decoration: none;
     padding: 1rem;
   }
-  nav a:link, nav a:visited¨{
-    color: var(#ADD8E6);
+  nav a:link, nav a:visited {
+    color: #ADD8E6;
   }
   nav a:hover{
-    color: var(#1B4965);
-    background-color:var(#5FA8D3);
+    color: #1B4965;
+    background-color: #5FA8D3;
   }
      section img{
 
